@@ -1,0 +1,51 @@
+# Data-Dictionary-
+---
+data_dictionary: Obesity_classification.txt
+
+copyright: >
+No explicit copyright provided.This data is in the public domain and is freely avaiable for anyone
+to use. Acknowledgement of the source is appreciated but not required.
+
+description: >
+Dataset offers valuable insights into how physical characteristics such as age, gender, height, and weight relate to obesity classifications, making it a useful resource for health analysis and research.
+
+download url: https://www.kaggle.com/datasets/sujithmandala/obesity-classification-dataset/data?select=Obesity+Classification.csv
+
+varnames:
+included
+
+missing_value_code:
+not needed
+
+size:   
+rows: 108
+columns: 7
+
+vars:
+ID: Identification (numbered from 1-108)
+
+age:
+label: Age of the individual
+unit: years
+
+Gender:
+label: Gender
+Female, Male
+unit: none
+
+Height:
+Label: Height
+Unit: Centimeters
+
+Weight:
+Label: Weight
+Unit: Kilograms
+
+BMI:
+Label: Body Mass Index
+Unit: None
+
+Label:
+Label: Obesity classification
+Categories: Normal Weight; Overweight; Obese; Underweight
+Unit: None
